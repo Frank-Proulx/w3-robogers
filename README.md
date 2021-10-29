@@ -2,18 +2,19 @@
 
 #### By Frank Proulx
 
-#### _{Brief description of application}_
+#### A website that takes a number and returns an array of numbers between 0 and the inputted number, with numbers containing 1, 2 and 3 replaced.
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* HTML
+* CSS
+* Bootstrap
+* Javascript
+* JQuery
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+This website has an animated image of a Mr. Rogers headed robot moving back and forth across the screen when loaded. It has an input field and asks for a number. When a number is inputted it changes the image to a static image of the Rogers robot with a cardigan. It displays a string of the array values 
 
 ## Setup/Installation Requirements
 
@@ -36,6 +37,10 @@ _{This is a detailed description of your application. Give as much detail as nee
 If you have any issues, questions, ideas or concerns, please reach out to me at my email and/or make a contribution to the code via GitHub.
 
 Copyright (c) 2021 Frank Proulx
+
+
+
+## **Tests**
 
 Describe: arrayMaker()  
 
@@ -93,22 +98,6 @@ Test: "It should take a number of any value and return an array of 0 to that num
 Code: robogers(5);  
 Expected Output: ["Beep!", "Boop!", "Won't you be my neighbor?", 4, 5]  
 
-Test: "It should recieve an array from arrayMaker() and run numberSplitter() on each number in the array to transform that number into an array of one or more elements, then run numberChecker() to transform the appropriate numbers, finally running an array of numbers/strings based on the project specifications"  
+Test: "It should receive an array from arrayMaker() and run numberSplitter() on each number in the array to transform that number into an array of one or more elements, then run numberChecker() to transform the appropriate numbers, finally returning an array of numbers/strings based on the project specifications"  
 Code: robogers(5);  
 Expected Output: ["Beep!", "Boop!", "Won't you be my neighbor?", 4, 5]  
-
-Test: 
-Code: 
-Expected Output: 
-
-Test: 
-Code: 
-Expected Output: 
-
-Test: 
-Code: 
-Expected Output: 
-
-Test: 
-Code: 
-Expected Output: 

@@ -19,6 +19,17 @@ img {
   width: auto;
 }
 
+#img1 {
+  margin-top: 40px;
+  height: 400px;
+  width: auto;
+}
+
+#img2 {
+  position: relative;
+  bottom: 75px;
+}
+
 #robo {
   width: 35%;
 }
@@ -36,12 +47,16 @@ img {
 
 .red {
   color: red;
-  font-size: 25px;
+  font-size: 22px;
+  border: 1px solid red;
+}
+
+.green {
+  border: 1px solid green;
 }
 
 .animated {
-  /* margin-top: 0px; */
-  animation: bounce 8s infinite;
+  animation: bounce 10s infinite;
 }
 
 @keyframes bounce {
@@ -56,4 +71,10 @@ img {
   100% {
     margin-left: 0%;
   }
+}
+
+#output {
+  background-color: black;
+  padding: 25px;
+  font-size: 22px;
 }

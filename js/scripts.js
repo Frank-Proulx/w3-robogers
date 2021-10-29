@@ -47,14 +47,15 @@ $(document).ready(function() {
   $("form#robo").submit(function(event) {
     event.preventDefault();
     let number = parseInt($("#number").val());
-    if (!(number > 0) && !(number < 0)) {
-      $("#output").text("Let's make the most of this beautiful day...by entering a number").addClass("red");
+    if (!(number > 0) && !(number < 0) && !(number === 0)) {
+      $("#output").text("Let's make the most of this beautiful day...by entering a number").addClass("red").removeClass("green");
     } else if (number < 0) {
-      $("#output").text("Apologies, but Mr. Robogers does not tolerate negativity, please be more positive.").addClass("red");
+      $("#output").text("Apologies, but Mr. Robogers does not tolerate negativity, please be more positive.").addClass("red").removeClass("green");
     } else {
-      $("#output").text(robogers(number)).removeClass("red");
+      $("#output").text(robogers(number).join(", ")).removeClass("red").addClass("green");
     }
     $("#img2").removeClass("hider");
+    $("#output").removeClass("hider");
     $("#img1").addClass("hider");
   });
 });
