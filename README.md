@@ -14,7 +14,7 @@
 
 ## Description
 
-This website has an animated image of a Mr. Rogers robot moving back and forth across the screen when loaded. It has an input field and asks for a number. When a number is inputted it changes the image to a static image of the Rogers robot wearing a cardigan. It displays an array of values from 0 to the number inputted (inclusive). It modifies the array such that if there is a 3 in a particular number, instead of that number it displays "Won't you be my nieghbor?", if there isn't 3 but there is a 2 it displays "Boop!", if there is neither a 3 or 2 but there is a 1 it displays "Beep!" instead of that number. If none of those conditions are met it displays the original number. If the user inputs a negative number they get a message to enter a positive number, if they don't enter an input they get a message to enter a number.
+This website has an animated image of a Mr. Rogers robot moving back and forth across the screen when loaded. It has an input field and asks for a number. When a number is inputted and submitted it changes the image to a static image of the Mr. Rogers robot wearing a cardigan. It displays an array of values from 0 to the number inputted (inclusive). It modifies the array such that if there is a 3 in a particular number, instead of that number it displays "Won't you be my neighbor?", if there isn't a 3 but there is a 2 it displays "Boop!", if there is neither a 3 nor a 2 but there is a 1 it displays "Beep!" instead of that number. If none of those conditions are met it displays the original number. If the user inputs a negative number they get a message to enter a positive number, if they don't enter an input they get a message to enter a number.
 
 ## Setup/Installation Requirements
 
