@@ -5,3 +5,11 @@ function arrayMaker(number) {
   }
   return maker;
 }
+
+function numberSplitter(number) {
+  let splitter = number.toString().split('');
+  let newSplitter = splitter.map(function(element) {
+    return parseInt(element);
+  });
+  return newSplitter;
+}

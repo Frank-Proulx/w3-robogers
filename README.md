@@ -63,7 +63,7 @@ Test: "It should, if having determined neither 3 nor 2 is present, check for a 1
 Code: ([4, 9, 1]);  
 Expected Output: "Beep!"  
 
-Test: "It will use .map() to perform the above tasks on an array of number arrays and return an array of numbers/strings"  
+Test: "It should use .map() to perform the above tasks on an array of number arrays and return an array of numbers/strings"  
 Code: ([9, 9], [1, 0, 0], [1, 0, 1], [1, 0, 2]);  
 Expected Output: [99, "Beep!", "Beep!", "Boop!"]
 
