@@ -42,3 +42,10 @@ function robogers(number) {
   });
   return newRobo;
 }
+
+$(document).ready(function() {
+  $("form#robo").submit(function(event) {
+    event.preventDefault();
+  });
+
+});
