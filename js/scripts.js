@@ -33,3 +33,12 @@ function numberChecker(array) {
   return parseInt(array.join(''));
 }
 
+function robogers(number) {
+  let robo = arrayMaker(number).map(function(element) {
+    return numberSplitter(element);
+  });
+  let newRobo = robo.map(function(element) {
+    return numberChecker(element);
+  });
+  return newRobo;
+}
