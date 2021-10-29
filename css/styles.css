@@ -1,12 +1,17 @@
 body {
   font-family: 'Orbitron', sans-serif;
-  background-color: rgb(143, 143, 143);
+  background: linear-gradient(45deg, darkgray, grey, lightgray);
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: white;
 }
 
 h1 {
   margin-top: 50px;
   margin-bottom: 20px;
+  font-size: 50px;
 }
 
 label {
@@ -19,15 +24,17 @@ img {
 
 #img1 {
   margin-top: 40px;
-  height: 400px;
+  height: 450px;
   width: auto;
+  margin-top: 10px;
 }
 
 #img2 {
   height: 550px;
   width: auto;
   position: relative;
-  bottom: 75px;
+  bottom: 80px;
+  left: 20px;
 }
 
 #robo {
@@ -49,14 +56,17 @@ img {
   color: red;
   font-size: 22px;
   border: 1px solid red;
+  border-radius: 5px;
 }
 
 .green {
   border: 1px solid green;
+  border-radius: 5px;
+  font-size: 20px;
 }
 
 .animated {
-  animation: bounce 10s infinite;
+  animation: bounce 9s infinite;
 }
 
 @keyframes bounce {
@@ -75,6 +85,6 @@ img {
 
 #output {
   background-color: black;
-  padding: 25px;
-  font-size: 22px;
+  padding: 20px;
+  text-align: justify;
 }
