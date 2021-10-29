@@ -4,6 +4,10 @@ body {
   color: white;
 }
 
+h1 {
+  margin-top: 50px;
+}
+
 img {
   display: block;
   height: 550px;
@@ -24,7 +28,23 @@ img {
 .red {
   color: red;
   font-size: 25px;
+}
 
-#output {
+.animated {
+  /* margin-top: 0px; */
+  animation: bounce 8s infinite;
+}
 
+@keyframes bounce {
+  0% {
+    margin-left: 0%;
+  }
+
+  50% {
+    margin-left: 75%;
+  }
+
+  100% {
+    margin-left: 0%;
+  }
 }

@@ -52,6 +52,7 @@ $(document).ready(function() {
     } else {
       $("#output").text(robogers(number)).removeClass("red");
     }
-    $("img").removeClass("hider");
+    $("#img2").removeClass("hider");
+    $("#img1").addClass("hider");
   });
 });
