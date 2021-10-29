@@ -8,5 +8,19 @@ img {
   display: block;
   height: 500px;
   width: auto;
-  margin: 0 auto;
 }
+
+.btn {
+  border: 2px solid white;
+  color: white;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.hider {
+  display:none;
+}
+
+/* #output {
+  text-align: center;
+} */

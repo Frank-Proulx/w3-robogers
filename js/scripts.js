@@ -52,5 +52,6 @@ $(document).ready(function() {
     } else {
       $("#output").text(robogers(number));
     }
+    $("img").removeClass("hider");
   });
 });
