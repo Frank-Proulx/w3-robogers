@@ -15,8 +15,6 @@ label {
 
 img {
   display: block;
-  height: 550px;
-  width: auto;
 }
 
 #img1 {
@@ -26,6 +24,8 @@ img {
 }
 
 #img2 {
+  height: 550px;
+  width: auto;
   position: relative;
   bottom: 75px;
 }
