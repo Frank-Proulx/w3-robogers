@@ -6,7 +6,7 @@ body {
 
 img {
   display: block;
-  height: 500px;
+  height: 550px;
   width: auto;
 }
 
@@ -21,6 +21,10 @@ img {
   display:none;
 }
 
-/* #output {
-  text-align: center;
-} */
+.red {
+  color: red;
+  font-size: 25px;
+
+#output {
+
+}

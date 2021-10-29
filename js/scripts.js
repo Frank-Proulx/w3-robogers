@@ -48,9 +48,9 @@ $(document).ready(function() {
     event.preventDefault();
     let number = parseInt($("#number").val());
     if (number < 0) {
-      $("#output").text("Apologies, but Mr. Robogers does not tolerate negativity, please be more positive.");
+      $("#output").text("Apologies, but Mr. Robogers does not tolerate negativity, please be more positive.").addClass("red");
     } else {
-      $("#output").text(robogers(number));
+      $("#output").text(robogers(number)).removeClass("red");
     }
     $("img").removeClass("hider");
   });
